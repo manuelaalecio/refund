@@ -74,6 +74,7 @@ function expenseAdd(newExpense) {
 
     expenseList.append(expenseItem);
 
+    resetForm();
     updateTotals();
   } catch (error) {
     alert("Não foi possível atualizar a lista de despesas.");
@@ -131,3 +132,11 @@ expenseList.addEventListener("click", (event) => {
     updateTotals();
   }
 });
+
+function resetForm() {
+  expense.value = "";
+  category.value = "";
+  amount.value = "";
+
+  expense.focus();
+}
