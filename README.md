@@ -4,7 +4,7 @@
 <p align="center">
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/manuelaalecio/refund?style=default&logo=opensourceinitiative&logoColor=white&color=1f8459" alt="license">
+	<img src="https://img.shields.io/badge/License-MIT-1f8459?style=default&logo=opensourceinitiative&logoColor=white" alt="license">
 	<img src="https://img.shields.io/github/last-commit/manuelaalecio/refund?style=default&logo=git&logoColor=white&color=1f8459" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/manuelaalecio/refund?style=default&color=1f8459" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/manuelaalecio/refund?style=default&color=1f8459" alt="repo-language-count">
@@ -58,7 +58,7 @@ Refund is a website to manage your expenses when you go to work
 
 <details open>
 	<summary><b><code>REFUND/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
+	<details>
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
@@ -154,6 +154,6 @@ Install refund using one of the following methods:
 
 ## 🎗 License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the MIT License. For more details, refer to the [LICENSE](/LICENSE) file.
 
 ---
