@@ -112,9 +112,7 @@ function updateTotals() {
     const symbolBRL = document.createElement("small");
     symbolBRL.textContent = "R$";
 
-    total = formatCurrencyBRL(total)
-      .toUpperCase()
-      .replace("R$", "");
+    total = formatCurrencyBRL(total).toUpperCase().replace("R$", "");
 
     expensesTotal.innerHTML = "";
 
@@ -124,3 +122,12 @@ function updateTotals() {
     console.log(error);
   }
 }
+
+expenseList.addEventListener("click", (event) => {
+  if (event.target.classList.contains("remove-icon")) {
+    const item = event.target.closest(".expense");
+    item.remove();
+
+    updateTotals();
+  }
+});
